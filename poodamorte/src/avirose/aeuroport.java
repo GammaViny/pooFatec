@@ -1,5 +1,4 @@
 package avirose;
-
 /*
 Criar exercício de dependência sobre Aeroporto,
 fazendo os relacionamentos que julgar necessário com as entidades abaixo:
@@ -21,5 +20,7 @@ fazendo os relacionamentos que julgar necessário com as entidades abaixo:
 */
 
 public class aeuroport {
-
+    public static void main(String[] args) {
+//        Passageiro gero = new Passageiro();
+    }
 }
