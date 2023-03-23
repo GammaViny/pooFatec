@@ -18,7 +18,7 @@ public class Passageiro extends Pessoinha{
         return "Passageiro com o passaporte: " + passaporte + ", da passagem =" + passagem + ", está np lugar =" + lugar;
     }
     public String validaCheckin(String validado){
-        if (passagem != null) {
+        if ((passagem != null)||(passagem != " ")) {
             return passagem;
         }else {
             validado = "Passagem invalida, passaporte vencido";
@@ -26,7 +26,7 @@ public class Passageiro extends Pessoinha{
         }
     }
 
-    public void entradaAeronave(int lugar){
+    public void entradaAeronave(){
         System.out.println("Entrou com sucesso na aeronave e" +
                 " sentou-se no assento pré-reservado: " +lugar);
     }

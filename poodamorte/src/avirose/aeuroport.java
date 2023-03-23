@@ -21,6 +21,25 @@ fazendo os relacionamentos que julgar necessário com as entidades abaixo:
 
 public class aeuroport {
     public static void main(String[] args) {
-//        Passageiro gero = new Passageiro();
+        Aeroporto trampico = new Aeroporto("Falaeiras", "Foofocas", "Rua ciranda d.e tal");
+        trampico.adalberto();
+
+        Aeronave naive = new Aeronave("GOLLLL É VEM DECOLAR NO GOLLL", "salaminhocos", 99);
+        naive.Decolar();
+
+        Piloto lot = new Piloto("Aquaris", 57, 348745612, "Rocha funebre", "Em dia", 12.2);
+        lot.Pilotarviao();
+
+        Passageiro gero = new Passageiro("Lisinha da batatinha", 21, 841367783, "Maldivas", "OK", 55);
+        gero.entradaAeronave();
+
+        System.out.print("\n\n\n\n\n");
+        System.out.println("=========objetos=========");
+        System.out.println(trampico.toString());
+        System.out.println(naive.toString());
+        System.out.println(lot.toString());
+        System.out.println(gero.toString());
+
+        trampico.fechadoom();
     }
 }
